@@ -49,6 +49,12 @@
                 -ms-transform: rotateX(90deg);
                 transform: rotateX(90deg);
             }
+             100% {
+               -webkit-transform: rotateY(-180deg) rotateZ(90deg);
+                -moz-transform: rotateY(-180deg) rotateZ(90deg);
+                -ms-transform: rotateY(-180deg) rotateZ(90deg);
+                transform: rotateY(-180deg) rotateZ(90deg);
+            }           
         }
         
         @keyframes holidayAnimation {
@@ -89,6 +95,13 @@
                 -webkit-transform: rotateY(-90deg);
                 transform: rotateX(90deg);
             }
+             100% {
+                -moz-transform: rotateY(-180deg) rotateZ(90deg);
+                -ms-transform: rotateY(-180deg) rotateZ(90deg);
+                -webkit-transform: rotateY(-90deg);
+                transform: rotateY(-180deg) rotateZ(90deg);
+            }           
+            
         }
         
         .photoContainer {
